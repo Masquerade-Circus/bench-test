@@ -13,6 +13,7 @@ To accomplish this task it will save a history based on the current git head id,
 - [Table of Contents](#table-of-contents)
 - [Install](#install)
 - [Use](#use)
+  - [Example](#example)
   - [Hooks](#hooks)
     - [Before](#before)
     - [After](#after)
@@ -75,6 +76,10 @@ It will show somthing like:
 
 3 passing (18.05s)
 ```
+
+## Example
+
+See the [bench/index.js](bench/index.js) file.
 
 ## Hooks 
 

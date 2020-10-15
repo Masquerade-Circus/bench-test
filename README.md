@@ -35,9 +35,9 @@ You can get this library as a [Node.js](https://nodejs.org/en/) module available
 
 ```bash
 // With npm
-$ npm install bench-test --save
+$ npm install @masquerade-circus/bench-test --save
 // With yarn
-$ yarn add bench-test
+$ yarn add @masquerade-circus/bench-test
 ```
 
 # Use 
@@ -104,6 +104,8 @@ See the [bench/index.js](bench/index.js) file.
 - Add --forbid-pending option
 - Implement option to load config from package.json or file
 - Add require module option
+- Add init command
+- Add create command
 
 # Contributing
 -   Use prettify and eslint to lint your code.

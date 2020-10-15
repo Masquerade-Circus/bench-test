@@ -1,5 +1,5 @@
 {
-  "name": "bench-test",
+  "name": "@masquerade-circus/bench-test",
   "description": "Performance test runner based on Benchmark.js and inspired by Mocha",
   "version": "0.0.1",
   "engines": {

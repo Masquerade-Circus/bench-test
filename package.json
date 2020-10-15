@@ -1,0 +1,56 @@
+{
+  "name": "bench-test",
+  "description": "Performance test runner based on Benchmark.js and inspired by Mocha",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=12.x.x"
+  },
+  "bin": {
+    "bench-test": "./bin/cli.js"
+  },
+  "scripts": {
+    "bench-test": "./bin/cli.js"
+  },
+  "repository": "git@github.com:Masquerade-Circus/bench-test.git",
+  "author": "Masquerade <christian@masquerade-circus.net>",
+  "license": "Apache-2.0",
+  "private": false,
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "keywords": [
+    "bench-test",
+    "benchmark",
+    "benchmark.js",
+    "perf",
+    "performance",
+    "test",
+    "test-runner",
+    "testing",
+    "assertion",
+    "ava",
+    "jest",
+    "tape",
+    "jasmine",
+    "karma"
+  ],
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "colors": "^1.4.0",
+    "commander": "^6.1.0",
+    "dayjs": "^1.9.1",
+    "fast-glob": "^3.2.4",
+    "figures": "^3.2.0",
+    "fs-extra": "^9.0.1",
+    "terminal-kit": "^1.43.0",
+    "yargs": "^16.0.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.10.0",
+    "eslint-plugin-sonarjs": "^0.5.0",
+    "expect": "^26.5.2",
+    "prettier": "^2.1.2"
+  }
+}

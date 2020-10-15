@@ -101,5 +101,9 @@ It will show somthing like:
 - Add require module option
 
 # Contributing
+-   Use prettify and eslint to lint your code.
+-   Update the readme with an example if you add or change any functionality.
 
 # Legal
+
+Author: [Masquerade Circus](http://masquerade-circus.net). License [Apache-2.0](https://opensource.org/licenses/Apache-2.0)

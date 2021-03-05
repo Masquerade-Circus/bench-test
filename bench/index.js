@@ -77,7 +77,3 @@ suite.only("onClycle", () => {
   });
   benchmark("RegExp#test", () => /o/.test("Hello World!"));
 });
-
-suite.only("pending", () => {
-  benchmark("RegExp#test");
-});

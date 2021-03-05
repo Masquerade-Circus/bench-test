@@ -1,5 +1,103 @@
 [
   {
+    "tag": "346da4cc802d3a16c2b15073982eaea6c66f0d4e",
+    "timestamp": "2021-02-24T14:03:49.518Z",
+    "suites": {
+      "Cost of return": {
+        "Function without return": {
+          "hz": 857855323.196432,
+          "cycles": 11,
+          "count": 48266850,
+          "times": {
+            "cycle": 0.056264557315042554,
+            "elapsed": 6.213,
+            "period": 1.1656977265979145e-9,
+            "timeStamp": 1614174955780
+          }
+        },
+        "Function with return": {
+          "hz": 880784758.1611874,
+          "cycles": 8,
+          "count": 48620461,
+          "times": {
+            "cycle": 0.05520129696783677,
+            "elapsed": 6.052,
+            "period": 1.1353511635325048e-9,
+            "timeStamp": 1614174988158
+          }
+        }
+      },
+      "Object property existence check": {
+        "object.prop existent method": {
+          "hz": 891211679.3378913,
+          "cycles": 8,
+          "count": 48450670,
+          "times": {
+            "cycle": 0.054364940589642516,
+            "elapsed": 6.006,
+            "period": 1.1220678803748744e-9,
+            "timeStamp": 1614175328884
+          }
+        },
+        "object.prop unexistent method": {
+          "hz": 878339849.5202509,
+          "cycles": 6,
+          "count": 48438617,
+          "times": {
+            "cycle": 0.05514792141840902,
+            "elapsed": 5.957,
+            "period": 1.1385114776998901e-9,
+            "timeStamp": 1614175334897
+          }
+        },
+        "prop in object existent method": {
+          "hz": 874969105.6283742,
+          "cycles": 9,
+          "count": 48302549,
+          "times": {
+            "cycle": 0.05520486230803622,
+            "elapsed": 6.248,
+            "period": 1.1428974961142573e-9,
+            "timeStamp": 1614175352994
+          }
+        },
+        "object[prop] existent method": {
+          "hz": 874410642.3834287,
+          "cycles": 6,
+          "count": 48243155,
+          "times": {
+            "cycle": 0.05517219560423122,
+            "elapsed": 5.958,
+            "period": 1.1436274349020336e-9,
+            "timeStamp": 1614175405617
+          }
+        },
+        "prop in object unexistent method": {
+          "hz": 873754619.1328461,
+          "cycles": 7,
+          "count": 48413554,
+          "times": {
+            "cycle": 0.055408638695435816,
+            "elapsed": 5.96,
+            "period": 1.1444860812208873e-9,
+            "timeStamp": 1614175423557
+          }
+        },
+        "object[prop] unexistent method": {
+          "hz": 864684418.2812058,
+          "cycles": 6,
+          "count": 48235637,
+          "times": {
+            "cycle": 0.05578409415065138,
+            "elapsed": 5.871,
+            "period": 1.1564912919186985e-9,
+            "timeStamp": 1614175411581
+          }
+        }
+      }
+    }
+  },
+  {
     "tag": "6fe881fa2140b561585a8304436221948b718bc8",
     "timestamp": "2020-10-15T05:52:48.448Z",
     "suites": {

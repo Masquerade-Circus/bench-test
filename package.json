@@ -8,6 +8,7 @@
   "bin": {
     "bench-test": "./bin/cli.js"
   },
+  "main": "lib/index.js",
   "scripts": {
     "bench-test": "./bin/cli.js"
   },

@@ -15,13 +15,8 @@ To accomplish this task it will save a history based on the current git head id,
 - [Use](#use)
   - [Example](#example)
   - [Hooks](#hooks)
-    - [Before](#before)
-    - [After](#after)
-    - [BeforeEach](#beforeeach)
-    - [AfterEach](#aftereach)
-    - [OnCycle](#oncycle)
-  - [Exclusive tests](#exclusive-tests)
-  - [Inclusive tests](#inclusive-tests)
+  - [Tests](#tests)
+  - [Exclusive tests and inclusive tests](#exclusive-tests-and-inclusive-tests)
 - [Comand-line usage](#comand-line-usage)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
@@ -45,7 +40,7 @@ $ yarn add @masquerade-circus/bench-test
 Create a folder for your tests in your project (default `bench`) and put your files in there.
 
 ```javascript
-let { compare, suite, benchmark } = require("bench-test");
+let { compare, suite, benchmark } = require("@masquerade-circus/bench-test");
 
 compare("regex vs string", () => {
   benchmark("RegExp#test", () => /orl/.test("Hello World!"));
@@ -83,27 +78,55 @@ See the [bench/index.js](bench/index.js) file.
 
 ## Hooks 
 
-### Before 
-### After
-### BeforeEach
-### AfterEach
-### OnCycle
+Bench-test provides the same hooks as mocha, `before()`, `after()`, `beforeEach()` and `afterEach()`. `before()` and `after()` run only once by suite. `beforeEach()` and `afterEach()` run before and after each benchmark respectively. 
 
-## Exclusive tests
+Also bench-test provides an `onCycle()` hook that runs on every completed cycle of each benchmark
 
-## Inclusive tests
+## Tests 
+Although bench-test is not a test-runner, you can run tests using `expect.js` or another library to check in each cycle that the benchmark is good.
+
+Failed benchmarks, errors or test non cycle will be showed in the terminal as mocha does.
+
+## Exclusive tests and inclusive tests
+
+As with mocha, you can run `only` benchmarks by appending `.only()` or skip them by appending `.skip()` to the desired suite. 
 
 # Comand-line usage
+
+```bash
+Usage: bench-test [options] [dirs...]
+
+Performance test runner based on Benchmark.js and inspired by Mocha
+
+Options:
+  -v, --version                   Output the version number
+  -r, --reporter <spec>           Reporter to use (default: "spec")
+  --enable-regressions            Allow benchmark regressions, if false benchmark will fail if there is a regression (default: false)
+  --error-margin <margin>         Fail benchmark if performance drops this percentage amount (default: 2.5)
+  --ignore-internals              Ignore internal modules when logging (default: true)
+  --ignore-node-modules           Ignore node modules when logging (default: true)
+  -R, --repository <repository>   Repository to use (default: "file")
+  -t, --tag <tag>                 Tag to be used to identify this run (default: "git")
+  -T, --tag-date-format <format>  Date format for the date tag (default: "YYYY-MM-DD")
+  --file-name <file-name>         File to be used by the file repository (default: "bench/.bench-test.json")
+  --require                       Files to require before tests
+  -h, --help                      Display help for command
+
+Available reporters:
+ - spec
+
+Available repositories:
+ - file
+```
 
 # Roadmap
 
 - Allow hook description
-- Allow write pending tests
+- Allow to write pending tests
 - Add --bail option
 - Add --forbid-only option
 - Add --forbid-pending option
 - Implement option to load config from package.json or file
-- Add require module option
 - Add init command
 - Add create command
 

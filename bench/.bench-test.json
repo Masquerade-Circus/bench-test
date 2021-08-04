@@ -1,5 +1,94 @@
 [
   {
+    "tag": "f6bd9530f55209844d1b643f7285fb90694904c9",
+    "timestamp": "2021-08-04T16:56:18.354Z",
+    "suites": {
+      "regex vs string": {
+        "String#indexOf": {
+          "hz": 943532138.7239286,
+          "cycles": 6,
+          "count": 48025771,
+          "times": {
+            "cycle": 0.05089998424955828,
+            "elapsed": 6.245,
+            "period": 1.0598473109272577e-9,
+            "timeStamp": 1628095925497
+          }
+        },
+        "RegExp#test": {
+          "hz": 28383678.957432825,
+          "cycles": 6,
+          "count": 1464680,
+          "times": {
+            "cycle": 0.051602894825459,
+            "elapsed": 6.115,
+            "period": 3.5231514614427044e-8,
+            "timeStamp": 1628096141553
+          }
+        }
+      },
+      "suite only": {
+        "suite only": {
+          "hz": 41299711.968868114,
+          "cycles": 7,
+          "count": 2154851,
+          "times": {
+            "cycle": 0.05217593288845054,
+            "elapsed": 6.148,
+            "period": 2.4213243926587285e-8,
+            "timeStamp": 1628096153865
+          }
+        }
+      },
+      "suite skipped": {},
+      "suite": {},
+      "empty suite": {},
+      "empty compare": {},
+      "Intended errors": {},
+      "before error": {},
+      "after error": {
+        "RegExp#test": {
+          "hz": 40173485.3613787,
+          "cycles": 9,
+          "count": 2100437,
+          "times": {
+            "cycle": 0.05228416158333333,
+            "elapsed": 6.117,
+            "period": 2.4892039886620416e-8,
+            "timeStamp": 1628096160062
+          }
+        }
+      },
+      "before each error": {},
+      "after each error": {
+        "RegExp#test": {
+          "hz": 40600918.98996726,
+          "cycles": 6,
+          "count": 2112031,
+          "times": {
+            "cycle": 0.0520192905121654,
+            "elapsed": 6.063,
+            "period": 2.4629984366785053e-8,
+            "timeStamp": 1628095943955
+          }
+        }
+      },
+      "onClycle": {
+        "RegExp#test": {
+          "hz": 40885898.07569697,
+          "cycles": 8,
+          "count": 2129723,
+          "times": {
+            "cycle": 0.052089426923116335,
+            "elapsed": 6.097,
+            "period": 2.4458310739526377e-8,
+            "timeStamp": 1628096172255
+          }
+        }
+      }
+    }
+  },
+  {
     "tag": "80ad6819636bc96a1c9903d7464c07b733d9df26",
     "timestamp": "2021-08-04T02:21:16.654Z",
     "suites": {

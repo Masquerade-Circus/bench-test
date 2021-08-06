@@ -77,3 +77,10 @@ suite.only("onClycle", () => {
   });
   benchmark("RegExp#test", () => /o/.test("Hello World!"));
 });
+
+suite("Setup and teardown", () => {
+  let a;
+  benchmark("a = 1", () => {
+    expect(a).toBe(1);
+  });
+});

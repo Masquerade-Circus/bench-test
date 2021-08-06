@@ -1,5 +1,95 @@
 [
   {
+    "tag": "0c703920ea90d0f5923fd1441a8204847a705f68",
+    "timestamp": "2021-08-06T13:18:01.485Z",
+    "suites": {
+      "regex vs string": {
+        "String#indexOf": {
+          "hz": 913672197.1270702,
+          "cycles": 7,
+          "count": 47774141,
+          "times": {
+            "cycle": 0.05228805380115528,
+            "elapsed": 1.6,
+            "period": 1.0944844366988258e-9,
+            "timeStamp": 1628255813992
+          }
+        },
+        "RegExp#test": {
+          "hz": 29098407.372884482,
+          "cycles": 5,
+          "count": 1502545,
+          "times": {
+            "cycle": 0.05163667484427877,
+            "elapsed": 6.313,
+            "period": 3.436614200857796e-8,
+            "timeStamp": 1628255844751
+          }
+        }
+      },
+      "suite only": {
+        "suite only": {
+          "hz": 40966349.602721654,
+          "cycles": 7,
+          "count": 2116599,
+          "times": {
+            "cycle": 0.05166677091139653,
+            "elapsed": 1.641,
+            "period": 2.4410278428458356e-8,
+            "timeStamp": 1628255815599
+          }
+        }
+      },
+      "suite skipped": {},
+      "suite": {},
+      "empty suite": {},
+      "empty compare": {},
+      "Intended errors": {},
+      "before error": {},
+      "after error": {
+        "RegExp#test": {
+          "hz": 40556646.94202835,
+          "cycles": 8,
+          "count": 2132442,
+          "times": {
+            "cycle": 0.05257934668633015,
+            "elapsed": 6.096,
+            "period": 2.4656870708009948e-8,
+            "timeStamp": 1628255863183
+          }
+        }
+      },
+      "before each error": {},
+      "after each error": {
+        "RegExp#test": {
+          "hz": 40504205.43709823,
+          "cycles": 6,
+          "count": 2152385,
+          "times": {
+            "cycle": 0.053139790714882354,
+            "elapsed": 5.976,
+            "period": 2.4688794390818723e-8,
+            "timeStamp": 1628255869299
+          }
+        }
+      },
+      "onClycle": {
+        "RegExp#test": {
+          "hz": 40118788.50526836,
+          "cycles": 10,
+          "count": 2156872,
+          "times": {
+            "cycle": 0.0537621418881271,
+            "elapsed": 6.202,
+            "period": 2.4925977011212116e-8,
+            "timeStamp": 1628255875281
+          }
+        }
+      },
+      "Setup and teardown": {}
+    }
+  },
+  {
     "tag": "f6bd9530f55209844d1b643f7285fb90694904c9",
     "timestamp": "2021-08-04T16:56:18.354Z",
     "suites": {

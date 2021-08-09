@@ -1,7 +1,7 @@
 {
   "name": "@masquerade-circus/bench-test",
   "description": "Performance test runner based on BuffaloBench and inspired by Mocha",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "engines": {
     "node": ">=12.x.x"
   },

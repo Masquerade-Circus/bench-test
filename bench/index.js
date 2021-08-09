@@ -1,5 +1,5 @@
 const expect = require("expect");
-let { compare, suite, benchmark, after, before, beforeEach, afterEach, onCycle } = require("../lib");
+let { compare, suite, benchmark, after, before, beforeEach, afterEach } = require("../lib");
 
 compare.only("regex vs string", () => {
   // before(() => console.log("Before log"));
@@ -7,7 +7,7 @@ compare.only("regex vs string", () => {
   // beforeEach(() => console.log("Before each"));
   // afterEach(() => console.log("After each"));
   benchmark("RegExp#test", () => /orl/.test("Hello World!"));
-  benchmark("String#indexOf", () => "Hello World!".indexOf("o") > -1);
+  benchmark("String#indexOf", () => "Hello World!".indexOf("orl") > -1);
 });
 
 suite.only("suite only", () => {
@@ -63,17 +63,6 @@ suite.only("before each error", () => {
 suite.only("after each error", () => {
   afterEach(() => {
     throw new Error("Intended error");
-  });
-  benchmark("RegExp#test", () => /o/.test("Hello World!"));
-});
-
-suite.only("onClycle", () => {
-  let count = 0;
-
-  onCycle(() => count++);
-
-  afterEach(() => {
-    console.log(count);
   });
   benchmark("RegExp#test", () => /o/.test("Hello World!"));
 });

@@ -1,6 +1,6 @@
 {
   "name": "@masquerade-circus/bench-test",
-  "description": "Performance test runner based on Benchmark.js and inspired by Mocha",
+  "description": "Performance test runner based on BuffaloBench and inspired by Mocha",
   "version": "0.0.5",
   "engines": {
     "node": ">=12.x.x"
@@ -22,6 +22,9 @@
   ],
   "keywords": [
     "bench-test",
+    "buffalo-bench",
+    "mocha",
+    "performance",
     "benchmark",
     "benchmark.js",
     "perf",
@@ -37,7 +40,7 @@
     "karma"
   ],
   "dependencies": {
-    "benchmark": "^2.1.4",
+    "buffalo-bench": "^1.0.1",
     "colors": "^1.4.0",
     "commander": "^6.1.0",
     "dayjs": "^1.9.1",

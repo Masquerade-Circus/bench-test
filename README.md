@@ -1,6 +1,6 @@
 # bench-test
 
-Performance test runner based on Benchmark.js and inspired by Mocha
+Performance test runner based on BuffaloBench and inspired by Mocha
 
 The purpose of this plugin is not only run benchmarks but to allow the developers to ensure that their application performance does not drops between commits or pull requests. 
 By default it will fail if performance drops a certain percentage (2.5% by default). 
@@ -80,8 +80,6 @@ See the [bench/index.js](bench/index.js) file.
 
 Bench-test provides the same hooks as mocha, `before()`, `after()`, `beforeEach()` and `afterEach()`. `before()` and `after()` run only once by suite. `beforeEach()` and `afterEach()` run before and after each benchmark respectively. 
 
-Also bench-test provides an `onCycle()` hook that runs on every completed cycle of each benchmark
-
 ## Tests 
 Although bench-test is not a test-runner, you can run tests using `expect.js` or another library to check in each cycle that the benchmark is good.
 
@@ -96,7 +94,7 @@ As with mocha, you can run `only` benchmarks by appending `.only()` or skip them
 ```bash
 Usage: bench-test [options] [dirs...]
 
-Performance test runner based on Benchmark.js and inspired by Mocha
+Performance test runner based on BuffaloBench and inspired by Mocha
 
 Options:
   -v, --version                   Output the version number

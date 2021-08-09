@@ -1,458 +1,198 @@
 [
   {
-    "tag": "0c703920ea90d0f5923fd1441a8204847a705f68",
-    "timestamp": "2021-08-06T13:18:01.485Z",
+    "tag": "44aada48b9f9f1740aaf9b94dcd33a20b517c51d",
+    "timestamp": "2021-08-09T15:24:35.415Z",
     "suites": {
+      "Before async": {},
       "regex vs string": {
-        "String#indexOf": {
-          "hz": 913672197.1270702,
-          "cycles": 7,
-          "count": 47774141,
-          "times": {
-            "cycle": 0.05228805380115528,
-            "elapsed": 1.6,
-            "period": 1.0944844366988258e-9,
-            "timeStamp": 1628255813992
-          }
-        },
         "RegExp#test": {
-          "hz": 29098407.372884482,
-          "cycles": 5,
-          "count": 1502545,
-          "times": {
-            "cycle": 0.05163667484427877,
-            "elapsed": 6.313,
-            "period": 3.436614200857796e-8,
-            "timeStamp": 1628255844751
-          }
+          "hz": 10850339.9063762,
+          "meanTime": 0.00009216301135528025,
+          "medianTime": 0.00008499622344970703,
+          "standardDeviation": 0.00023108081165215924,
+          "maxTime": 0.25157397985458374,
+          "minTime": 0.00007697939872741699
+        },
+        "String#indexOf": {
+          "hz": 11640517.457408328,
+          "meanTime": 0.00008590683392374229,
+          "medianTime": 0.0000819861888885498,
+          "standardDeviation": 0.0002544827884946004,
+          "maxTime": 0.16155600547790527,
+          "minTime": 0.00007399916648864746
         }
       },
       "suite only": {
         "suite only": {
-          "hz": 40966349.602721654,
-          "cycles": 7,
-          "count": 2116599,
-          "times": {
-            "cycle": 0.05166677091139653,
-            "elapsed": 1.641,
-            "period": 2.4410278428458356e-8,
-            "timeStamp": 1628255815599
-          }
+          "hz": 11094643.452516153,
+          "meanTime": 0.00009013358602102801,
+          "medianTime": 0.00008401274681091309,
+          "standardDeviation": 0.00025002037301522965,
+          "maxTime": 0.18424898386001587,
+          "minTime": 0.00007599592208862305
         }
       },
       "suite skipped": {},
       "suite": {},
       "empty suite": {},
       "empty compare": {},
-      "Intended errors": {},
-      "before error": {},
+      "Intended errors": {
+        "Normal error": {
+          "hz": 0,
+          "meanTime": 0,
+          "medianTime": 0,
+          "standardDeviation": 0,
+          "maxTime": 0,
+          "minTime": 0
+        },
+        "expect.js error": {
+          "hz": 0,
+          "meanTime": 0,
+          "medianTime": 0,
+          "standardDeviation": 0,
+          "maxTime": 0,
+          "minTime": 0
+        }
+      },
+      "before error": {
+        "RegExp#test": {
+          "hz": 10207815.288786208,
+          "meanTime": 0.00009796415508209182,
+          "medianTime": 0.00009199976921081543,
+          "standardDeviation": 0.00024256785633616955,
+          "maxTime": 0.18521201610565186,
+          "minTime": 0.00008299946784973145
+        }
+      },
       "after error": {
         "RegExp#test": {
-          "hz": 40556646.94202835,
-          "cycles": 8,
-          "count": 2132442,
-          "times": {
-            "cycle": 0.05257934668633015,
-            "elapsed": 6.096,
-            "period": 2.4656870708009948e-8,
-            "timeStamp": 1628255863183
-          }
+          "hz": 10221982.595958713,
+          "meanTime": 0.00009782838022003212,
+          "medianTime": 0.00009101629257202148,
+          "standardDeviation": 0.0002739267247139492,
+          "maxTime": 0.411516010761261,
+          "minTime": 0.00008299946784973145
         }
       },
-      "before each error": {},
+      "before each error": {
+        "RegExp#test": {
+          "hz": 10275454.537826432,
+          "meanTime": 0.00009731929583443324,
+          "medianTime": 0.00009199976921081543,
+          "standardDeviation": 0.000252115600082487,
+          "maxTime": 0.26113399863243103,
+          "minTime": 0.00008299946784973145
+        }
+      },
       "after each error": {
         "RegExp#test": {
-          "hz": 40504205.43709823,
-          "cycles": 6,
-          "count": 2152385,
-          "times": {
-            "cycle": 0.053139790714882354,
-            "elapsed": 5.976,
-            "period": 2.4688794390818723e-8,
-            "timeStamp": 1628255869299
-          }
-        }
-      },
-      "onClycle": {
-        "RegExp#test": {
-          "hz": 40118788.50526836,
-          "cycles": 10,
-          "count": 2156872,
-          "times": {
-            "cycle": 0.0537621418881271,
-            "elapsed": 6.202,
-            "period": 2.4925977011212116e-8,
-            "timeStamp": 1628255875281
-          }
+          "hz": 10229922.644324498,
+          "meanTime": 0.00009775244982471046,
+          "medianTime": 0.00009199976921081543,
+          "standardDeviation": 0.000246486322512416,
+          "maxTime": 0.1898539960384369,
+          "minTime": 0.00008299946784973145
         }
       },
       "Setup and teardown": {}
     }
   },
   {
-    "tag": "f6bd9530f55209844d1b643f7285fb90694904c9",
-    "timestamp": "2021-08-04T16:56:18.354Z",
+    "tag": null,
+    "timestamp": "2021-08-09T15:17:55.116Z",
     "suites": {
+      "Before async": {},
       "regex vs string": {
-        "String#indexOf": {
-          "hz": 943532138.7239286,
-          "cycles": 6,
-          "count": 48025771,
-          "times": {
-            "cycle": 0.05089998424955828,
-            "elapsed": 6.245,
-            "period": 1.0598473109272577e-9,
-            "timeStamp": 1628095925497
-          }
-        },
         "RegExp#test": {
-          "hz": 28383678.957432825,
-          "cycles": 6,
-          "count": 1464680,
-          "times": {
-            "cycle": 0.051602894825459,
-            "elapsed": 6.115,
-            "period": 3.5231514614427044e-8,
-            "timeStamp": 1628096141553
-          }
+          "hz": 10161842.124001319,
+          "meanTime": 0.00009840735447346635,
+          "medianTime": 0.00008800625801086426,
+          "standardDeviation": 0.00033195746277142174,
+          "maxTime": 0.17715099453926086,
+          "minTime": 0.00007998943328857422
+        },
+        "String#indexOf": {
+          "hz": 11443621.617999885,
+          "meanTime": 0.00008738492353042164,
+          "medianTime": 0.0000820159912109375,
+          "standardDeviation": 0.0002910608163916673,
+          "maxTime": 0.22836598753929138,
+          "minTime": 0.00007399916648864746
         }
       },
       "suite only": {
         "suite only": {
-          "hz": 41299711.968868114,
-          "cycles": 7,
-          "count": 2154851,
-          "times": {
-            "cycle": 0.05217593288845054,
-            "elapsed": 6.148,
-            "period": 2.4213243926587285e-8,
-            "timeStamp": 1628096153865
-          }
+          "hz": 9777133.834651902,
+          "meanTime": 0.00010227946317517125,
+          "medianTime": 0.0000959932804107666,
+          "standardDeviation": 0.00029528703258704855,
+          "maxTime": 0.18306300044059753,
+          "minTime": 0.00008597970008850098
         }
       },
       "suite skipped": {},
       "suite": {},
       "empty suite": {},
       "empty compare": {},
-      "Intended errors": {},
-      "before error": {},
+      "Intended errors": {
+        "Normal error": {
+          "hz": 0,
+          "meanTime": 0,
+          "medianTime": 0,
+          "standardDeviation": 0,
+          "maxTime": 0,
+          "minTime": 0
+        },
+        "expect.js error": {
+          "hz": 0,
+          "meanTime": 0,
+          "medianTime": 0,
+          "standardDeviation": 0,
+          "maxTime": 0,
+          "minTime": 0
+        }
+      },
+      "before error": {
+        "RegExp#test": {
+          "hz": 10015216.238943411,
+          "meanTime": 0.00009984806879272119,
+          "medianTime": 0.00009301304817199707,
+          "standardDeviation": 0.0003578729189173653,
+          "maxTime": 0.454257994890213,
+          "minTime": 0.00008398294448852539
+        }
+      },
       "after error": {
         "RegExp#test": {
-          "hz": 40173485.3613787,
-          "cycles": 9,
-          "count": 2100437,
-          "times": {
-            "cycle": 0.05228416158333333,
-            "elapsed": 6.117,
-            "period": 2.4892039886620416e-8,
-            "timeStamp": 1628096160062
-          }
+          "hz": 9995293.097891964,
+          "meanTime": 0.00010004709118644083,
+          "medianTime": 0.00009301304817199707,
+          "standardDeviation": 0.0003197906728136915,
+          "maxTime": 0.3790090084075928,
+          "minTime": 0.00008499622344970703
         }
       },
-      "before each error": {},
+      "before each error": {
+        "RegExp#test": {
+          "hz": 9773824.351577891,
+          "meanTime": 0.0001023140956936227,
+          "medianTime": 0.00009399652481079102,
+          "standardDeviation": 0.00036989828660004536,
+          "maxTime": 0.41912201046943665,
+          "minTime": 0.00008398294448852539
+        }
+      },
       "after each error": {
         "RegExp#test": {
-          "hz": 40600918.98996726,
-          "cycles": 6,
-          "count": 2112031,
-          "times": {
-            "cycle": 0.0520192905121654,
-            "elapsed": 6.063,
-            "period": 2.4629984366785053e-8,
-            "timeStamp": 1628095943955
-          }
+          "hz": 9927670.558272075,
+          "meanTime": 0.00010072856408060054,
+          "medianTime": 0.00009399652481079102,
+          "standardDeviation": 0.00030547080516552053,
+          "maxTime": 0.2281949818134308,
+          "minTime": 0.00008499622344970703
         }
       },
-      "onClycle": {
-        "RegExp#test": {
-          "hz": 40885898.07569697,
-          "cycles": 8,
-          "count": 2129723,
-          "times": {
-            "cycle": 0.052089426923116335,
-            "elapsed": 6.097,
-            "period": 2.4458310739526377e-8,
-            "timeStamp": 1628096172255
-          }
-        }
-      }
-    }
-  },
-  {
-    "tag": "80ad6819636bc96a1c9903d7464c07b733d9df26",
-    "timestamp": "2021-08-04T02:21:16.654Z",
-    "suites": {
-      "regex vs string": {
-        "String#indexOf": {
-          "hz": 899307338.6068383,
-          "cycles": 7,
-          "count": 45931716,
-          "times": {
-            "cycle": 0.05107454818633539,
-            "elapsed": 6.014,
-            "period": 1.1119669072746028e-9,
-            "timeStamp": 1628043075508
-          }
-        },
-        "RegExp#test": {
-          "hz": 26043005.81579325,
-          "cycles": 6,
-          "count": 1409134,
-          "times": {
-            "cycle": 0.05410796318854483,
-            "elapsed": 6.172,
-            "period": 3.839802544580205e-8,
-            "timeStamp": 1628043069327
-          }
-        }
-      },
-      "suite only": {
-        "suite only": {
-          "hz": 37126825.08377805,
-          "cycles": 5,
-          "count": 2112884,
-          "times": {
-            "cycle": 0.056909902617102305,
-            "elapsed": 5.958,
-            "period": 2.693470281241294e-8,
-            "timeStamp": 1628042964165
-          }
-        }
-      },
-      "suite skipped": {},
-      "suite": {},
-      "empty suite": {},
-      "empty compare": {},
-      "Intended errors": {},
-      "before error": {},
-      "after error": {
-        "RegExp#test": {
-          "hz": 24838635.08568528,
-          "cycles": 4,
-          "count": 1890459,
-          "times": {
-            "cycle": 0.07610961687220438,
-            "elapsed": 39.332,
-            "period": 4.02598611618683e-8,
-            "timeStamp": 1628042970171
-          }
-        }
-      },
-      "before each error": {},
-      "after each error": {
-        "RegExp#test": {
-          "hz": 16196500.815940302,
-          "cycles": 5,
-          "count": 2011753,
-          "times": {
-            "cycle": 0.12420911299680663,
-            "elapsed": 6.652,
-            "period": 6.174173121491885e-8,
-            "timeStamp": 1628043009531
-          }
-        }
-      },
-      "onClycle": {
-        "RegExp#test": {
-          "hz": 37338055.9970163,
-          "cycles": 6,
-          "count": 2083559,
-          "times": {
-            "cycle": 0.0558025570524212,
-            "elapsed": 5.989,
-            "period": 2.6782326323574807e-8,
-            "timeStamp": 1628043016188
-          }
-        }
-      }
-    }
-  },
-  {
-    "tag": "346da4cc802d3a16c2b15073982eaea6c66f0d4e",
-    "timestamp": "2021-02-24T14:03:49.518Z",
-    "suites": {
-      "Cost of return": {
-        "Function without return": {
-          "hz": 857855323.196432,
-          "cycles": 11,
-          "count": 48266850,
-          "times": {
-            "cycle": 0.056264557315042554,
-            "elapsed": 6.213,
-            "period": 1.1656977265979145e-9,
-            "timeStamp": 1614174955780
-          }
-        },
-        "Function with return": {
-          "hz": 880784758.1611874,
-          "cycles": 8,
-          "count": 48620461,
-          "times": {
-            "cycle": 0.05520129696783677,
-            "elapsed": 6.052,
-            "period": 1.1353511635325048e-9,
-            "timeStamp": 1614174988158
-          }
-        }
-      },
-      "Object property existence check": {
-        "object.prop existent method": {
-          "hz": 891211679.3378913,
-          "cycles": 8,
-          "count": 48450670,
-          "times": {
-            "cycle": 0.054364940589642516,
-            "elapsed": 6.006,
-            "period": 1.1220678803748744e-9,
-            "timeStamp": 1614175328884
-          }
-        },
-        "object.prop unexistent method": {
-          "hz": 878339849.5202509,
-          "cycles": 6,
-          "count": 48438617,
-          "times": {
-            "cycle": 0.05514792141840902,
-            "elapsed": 5.957,
-            "period": 1.1385114776998901e-9,
-            "timeStamp": 1614175334897
-          }
-        },
-        "prop in object existent method": {
-          "hz": 874969105.6283742,
-          "cycles": 9,
-          "count": 48302549,
-          "times": {
-            "cycle": 0.05520486230803622,
-            "elapsed": 6.248,
-            "period": 1.1428974961142573e-9,
-            "timeStamp": 1614175352994
-          }
-        },
-        "object[prop] existent method": {
-          "hz": 874410642.3834287,
-          "cycles": 6,
-          "count": 48243155,
-          "times": {
-            "cycle": 0.05517219560423122,
-            "elapsed": 5.958,
-            "period": 1.1436274349020336e-9,
-            "timeStamp": 1614175405617
-          }
-        },
-        "prop in object unexistent method": {
-          "hz": 873754619.1328461,
-          "cycles": 7,
-          "count": 48413554,
-          "times": {
-            "cycle": 0.055408638695435816,
-            "elapsed": 5.96,
-            "period": 1.1444860812208873e-9,
-            "timeStamp": 1614175423557
-          }
-        },
-        "object[prop] unexistent method": {
-          "hz": 864684418.2812058,
-          "cycles": 6,
-          "count": 48235637,
-          "times": {
-            "cycle": 0.05578409415065138,
-            "elapsed": 5.871,
-            "period": 1.1564912919186985e-9,
-            "timeStamp": 1614175411581
-          }
-        }
-      }
-    }
-  },
-  {
-    "tag": "6fe881fa2140b561585a8304436221948b718bc8",
-    "timestamp": "2020-10-15T05:52:48.448Z",
-    "suites": {
-      "regex vs string": {
-        "String#indexOf": {
-          "hz": 495271182.28146315,
-          "cycles": 7,
-          "count": 25472692,
-          "times": {
-            "cycle": 0.0514318072831539,
-            "elapsed": 6.075,
-            "period": 2.0190958726762723e-9,
-            "timeStamp": 1602739891804
-          }
-        },
-        "RegExp#test": {
-          "hz": 15741065.47185433,
-          "cycles": 6,
-          "count": 811672,
-          "times": {
-            "cycle": 0.05156398094216067,
-            "elapsed": 5.997,
-            "period": 6.352810118146329e-8,
-            "timeStamp": 1602738461535
-          }
-        }
-      },
-      "suite only": {
-        "suite only": {
-          "hz": 22604478.021641698,
-          "cycles": 6,
-          "count": 1172933,
-          "times": {
-            "cycle": 0.051889408765689045,
-            "elapsed": 6.24,
-            "period": 4.423902197797235e-8,
-            "timeStamp": 1602738473732
-          }
-        }
-      },
-      "suite skipped": {},
-      "suite": {},
-      "empty suite": {},
-      "empty compare": {},
-      "Intended errors": {},
-      "before error": {},
-      "after error": {
-        "RegExp#test": {
-          "hz": 22435603.887848113,
-          "cycles": 8,
-          "count": 1167846,
-          "times": {
-            "cycle": 0.05205324562859416,
-            "elapsed": 6.088,
-            "period": 4.4572011745207984e-8,
-            "timeStamp": 1602741150041
-          }
-        }
-      },
-      "before each error": {},
-      "after each error": {
-        "RegExp#test": {
-          "hz": 22718437.797523737,
-          "cycles": 7,
-          "count": 1172073,
-          "times": {
-            "cycle": 0.05159126742982977,
-            "elapsed": 6.08,
-            "period": 4.401711107570072e-8,
-            "timeStamp": 1602741156149
-          }
-        }
-      },
-      "onClycle": {
-        "RegExp#test": {
-          "hz": 22695736.323139366,
-          "cycles": 7,
-          "count": 1165143,
-          "times": {
-            "cycle": 0.05133752804539248,
-            "elapsed": 6.192,
-            "period": 4.406113931542522e-8,
-            "timeStamp": 1602741162236
-          }
-        }
-      },
-      "pending": {}
+      "Setup and teardown": {}
     }
   }
 ]

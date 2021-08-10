@@ -1,5 +1,139 @@
 [
   {
+    "tag": "1bd115cfaa8cbd28bf75e825e538514a2adab402",
+    "timestamp": "2021-08-10T13:56:42.382Z",
+    "suites": {
+      "Before async": {
+        "Before async": {
+          "hz": 0,
+          "meanTime": 0,
+          "medianTime": 0,
+          "standardDeviation": 0,
+          "maxTime": 0,
+          "minTime": 0
+        }
+      },
+      "regex vs string": {
+        "RegExp#test": {
+          "hz": 8691792.516797233,
+          "meanTime": 0.0001150510666318208,
+          "medianTime": 0.000102996826171875,
+          "standardDeviation": 0.00048415430664387635,
+          "maxTime": 0.3012079894542694,
+          "minTime": 0.00009301304817199707
+        },
+        "String#indexOf": {
+          "hz": 7994062.609057401,
+          "meanTime": 0.00012509284063737304,
+          "medianTime": 0.00012001395225524902,
+          "standardDeviation": 0.0007290208653952945,
+          "maxTime": 1.1035469770431519,
+          "minTime": 0.00010198354721069336
+        }
+      },
+      "suite only": {
+        "suite only": {
+          "hz": 8975863.369476408,
+          "meanTime": 0.00011140989549825705,
+          "medianTime": 0.00010201334953308105,
+          "standardDeviation": 0.00039022518472626506,
+          "maxTime": 0.4151550233364105,
+          "minTime": 0.00008997321128845215
+        }
+      },
+      "suite skipped": {
+        "RegExp#test": {
+          "hz": 0,
+          "meanTime": 0,
+          "medianTime": 0,
+          "standardDeviation": 0,
+          "maxTime": 0,
+          "minTime": 0
+        }
+      },
+      "suite": {
+        "RegExp#test": {
+          "hz": 0,
+          "meanTime": 0,
+          "medianTime": 0,
+          "standardDeviation": 0,
+          "maxTime": 0,
+          "minTime": 0
+        }
+      },
+      "empty suite": {},
+      "empty compare": {},
+      "Intended errors": {
+        "Normal error": {
+          "hz": 0,
+          "meanTime": 0,
+          "medianTime": 0,
+          "standardDeviation": 0,
+          "maxTime": 0,
+          "minTime": 0
+        },
+        "expect.js error": {
+          "hz": 0,
+          "meanTime": 0,
+          "medianTime": 0,
+          "standardDeviation": 0,
+          "maxTime": 0,
+          "minTime": 0
+        }
+      },
+      "before error": {
+        "RegExp#test": {
+          "hz": 9215433.844021823,
+          "meanTime": 0.00010851361063686802,
+          "medianTime": 0.00010100007057189941,
+          "standardDeviation": 0.00030505205692925975,
+          "maxTime": 0.1892710030078888,
+          "minTime": 0.00008797645568847656
+        }
+      },
+      "after error": {
+        "RegExp#test": {
+          "hz": 9280359.279716454,
+          "meanTime": 0.00010775444892372241,
+          "medianTime": 0.00009900331497192383,
+          "standardDeviation": 0.0002974477448478555,
+          "maxTime": 0.2098810076713562,
+          "minTime": 0.0000890195369720459
+        }
+      },
+      "before each error": {
+        "RegExp#test": {
+          "hz": 9454209.926889526,
+          "meanTime": 0.00010577298449400986,
+          "medianTime": 0.00009801983833312988,
+          "standardDeviation": 0.00030014794137601865,
+          "maxTime": 0.21028602123260498,
+          "minTime": 0.00009000301361083984
+        }
+      },
+      "after each error": {
+        "RegExp#test": {
+          "hz": 8691929.328851394,
+          "meanTime": 0.0001150492557136502,
+          "medianTime": 0.00010800361633300781,
+          "standardDeviation": 0.0002719187486793039,
+          "maxTime": 0.19875502586364746,
+          "minTime": 0.00009098649024963379
+        }
+      },
+      "Setup and teardown": {
+        "a = 1": {
+          "hz": 0,
+          "meanTime": 0,
+          "medianTime": 0,
+          "standardDeviation": 0,
+          "maxTime": 0,
+          "minTime": 0
+        }
+      }
+    }
+  },
+  {
     "tag": "ff5bdb7ef67c5660f4c4e4c8b7539d641449f9da",
     "timestamp": "2021-08-10T13:41:46.356Z",
     "suites": {

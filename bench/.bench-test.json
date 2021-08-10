@@ -1,5 +1,21 @@
 [
   {
+    "tag": "ff5bdb7ef67c5660f4c4e4c8b7539d641449f9da",
+    "timestamp": "2021-08-10T13:41:46.356Z",
+    "suites": {
+      "Before async": {
+        "Before async": {
+          "hz": 25462.45201758536,
+          "meanTime": 0.03927351534366608,
+          "medianTime": 0.058217018842697144,
+          "standardDeviation": 0.018943503499031067,
+          "maxTime": 0.058217018842697144,
+          "minTime": 0.02033001184463501
+        }
+      }
+    }
+  },
+  {
     "tag": "429688ef5cdf0c31304bbd4e48a083f095b3608e",
     "timestamp": "2021-08-09T20:44:28.897Z",
     "suites": {

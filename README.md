@@ -80,6 +80,8 @@ See the [bench/index.js](bench/index.js) file.
 
 Bench-test provides the same hooks as mocha, `before()`, `after()`, `beforeEach()` and `afterEach()`. `before()` and `after()` run only once by suite. `beforeEach()` and `afterEach()` run before and after each benchmark respectively. 
 
+Also `beforeCycle()` and `afterCycle()` can be used to run code before and after the benchmark cycle.
+
 ## Tests 
 Although bench-test is not a test-runner, you can run tests using `expect.js` or another library to check in each cycle that the benchmark is good.
 

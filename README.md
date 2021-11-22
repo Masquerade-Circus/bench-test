@@ -1,4 +1,4 @@
-# bench-test
+# buffalo-test
 
 Performance test runner based on BuffaloBench and inspired by Mocha
 
@@ -9,7 +9,7 @@ To accomplish this task it will save a history based on the current git head id,
 
 # Table of Contents
 
-- [bench-test](#bench-test)
+- [buffalo-test](#buffalo-test)
 - [Table of Contents](#table-of-contents)
 - [Install](#install)
 - [Use](#use)
@@ -30,9 +30,9 @@ You can get this library as a [Node.js](https://nodejs.org/en/) module available
 
 ```bash
 // With npm
-$ npm install @masquerade-circus/bench-test --save
+$ npm install buffalo-test --save
 // With yarn
-$ yarn add @masquerade-circus/bench-test
+$ yarn add buffalo-test
 ```
 
 # Use 
@@ -40,7 +40,7 @@ $ yarn add @masquerade-circus/bench-test
 Create a folder for your tests in your project (default `bench`) and put your files in there.
 
 ```javascript
-let { compare, suite, benchmark } = require("@masquerade-circus/bench-test");
+let { compare, suite, benchmark } = require("buffalo-test");
 
 compare("regex vs string", () => {
   benchmark("RegExp#test", () => /orl/.test("Hello World!"));
@@ -54,7 +54,7 @@ suite("suite only", () => {
 
 To run the benchmarks just run from your terminal: 
 ```bash
-$ bench-test
+$ buffalo-test
 ```
 
 It will show somthing like: 
@@ -78,12 +78,12 @@ See the [bench/index.js](bench/index.js) file.
 
 ## Hooks 
 
-Bench-test provides the same hooks as mocha, `before()`, `after()`, `beforeEach()` and `afterEach()`. `before()` and `after()` run only once by suite. `beforeEach()` and `afterEach()` run before and after each benchmark respectively. 
+Buffalo-test provides the same hooks as mocha, `before()`, `after()`, `beforeEach()` and `afterEach()`. `before()` and `after()` run only once by suite. `beforeEach()` and `afterEach()` run before and after each benchmark respectively. 
 
 Also `beforeCycle()` and `afterCycle()` can be used to run code before and after the benchmark cycle.
 
 ## Tests 
-Although bench-test is not a test-runner, you can run tests using `expect.js` or another library to check in each cycle that the benchmark is good.
+Although buffalo-test is not a test-runner, you can run tests using `expect.js` or another library to check in each cycle that the benchmark is good.
 
 Failed benchmarks, errors or test non cycle will be showed in the terminal as mocha does.
 
@@ -94,7 +94,7 @@ As with mocha, you can run `only` benchmarks by appending `.only()` or skip them
 # Comand-line usage
 
 ```bash
-Usage: bench-test [options] [dirs...]
+Usage: buffalo-test [options] [dirs...]
 
 Performance test runner based on BuffaloBench and inspired by Mocha
 
@@ -108,7 +108,7 @@ Options:
   -R, --repository <repository>   Repository to use (default: "file")
   -t, --tag <tag>                 Tag to be used to identify this run (default: "git")
   -T, --tag-date-format <format>  Date format for the date tag (default: "YYYY-MM-DD")
-  --file-name <file-name>         File to be used by the file repository (default: "bench/.bench-test.json")
+  --file-name <file-name>         File to be used by the file repository (default: "bench/.buffalo-test.json")
   --require                       Files to require before tests
   -h, --help                      Display help for command
 

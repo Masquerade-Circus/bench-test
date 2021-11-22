@@ -1,5 +1,5 @@
 {
-  "name": "@masquerade-circus/bench-test",
+  "name": "buffalo-test",
   "description": "Performance test runner based on BuffaloBench and inspired by Mocha",
   "version": "1.1.2",
   "type": "commonjs",
@@ -7,11 +7,11 @@
     "node": ">=12.x.x"
   },
   "bin": {
-    "bench-test": "./bin/cli.js"
+    "buffalo-test": "./bin/cli.js"
   },
   "main": "lib/index.js",
   "scripts": {
-    "bench-test": "./bin/cli.js"
+    "buffalo-test": "./bin/cli.js"
   },
   "repository": "git@github.com:Masquerade-Circus/bench-test.git",
   "author": "Masquerade <christian@masquerade-circus.net>",
@@ -23,6 +23,7 @@
   ],
   "keywords": [
     "bench-test",
+    "buffalo-test",
     "buffalo-bench",
     "mocha",
     "performance",
@@ -41,21 +42,21 @@
     "karma"
   ],
   "dependencies": {
-    "buffalo-bench": "^1.0.2",
+    "buffalo-bench": "^1.0.3",
     "colors": "^1.4.0",
-    "commander": "^6.1.0",
-    "dayjs": "^1.10.6",
+    "commander": "^8.3.0",
+    "dayjs": "^1.10.7",
     "fast-glob": "^3.2.7",
     "figures": "^3.2.0",
     "fs-extra": "^10.0.0",
-    "terminal-kit": "^2.1.6",
-    "yargs": "^17.1.0"
+    "terminal-kit": "^2.2.3",
+    "yargs": "^17.2.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.32.0",
-    "eslint-plugin-sonarjs": "^0.9.1",
-    "expect": "^27.0.6",
-    "prettier": "^2.3.2"
+    "eslint": "^8.3.0",
+    "eslint-plugin-sonarjs": "^0.10.0",
+    "expect": "^27.3.1",
+    "prettier": "^2.4.1"
   }
 }

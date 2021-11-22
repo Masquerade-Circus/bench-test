@@ -4,7 +4,7 @@
   "rules": {
     "array-bracket-spacing": 2,
     "brace-style": 2,
-    "comma-dangle": 2,
+    "comma-dangle": 1,
     "comma-spacing": 2,
     "comma-style": 2,
     "curly": 2,

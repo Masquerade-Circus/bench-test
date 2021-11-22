@@ -1,5 +1,113 @@
 [
   {
+    "tag": "b031bc235035326a314ff09625758040acb2d222",
+    "timestamp": "2021-11-22T20:59:45.175Z",
+    "suites": {
+      "Before async": {
+        "Before async": {
+          "hz": 0,
+          "meanTime": 0,
+          "medianTime": 0,
+          "standardDeviation": 0,
+          "maxTime": 0,
+          "minTime": 0
+        }
+      },
+      "regex vs string": {
+        "RegExp#test": {
+          "hz": 8138837.060091421,
+          "meanTime": 0.00012286767662464634,
+          "medianTime": 0.00010500103235244751,
+          "standardDeviation": 0.0002740118612190549,
+          "maxTime": 0.2506150007247925,
+          "minTime": 0.00007999688386917114
+        },
+        "String#indexOf": {
+          "hz": 6527354.812255251,
+          "meanTime": 0.0001532014160043021,
+          "medianTime": 0.00015199929475784302,
+          "standardDeviation": 0.0002918860903079689,
+          "maxTime": 0.17697099968791008,
+          "minTime": 0.0000769980251789093
+        }
+      },
+      "suite only": {
+        "suite only": {
+          "hz": 6525959.042945291,
+          "meanTime": 0.000153234182657187,
+          "medianTime": 0.0001440010964870453,
+          "standardDeviation": 0.0011627497050275496,
+          "maxTime": 0.5323099978268147,
+          "minTime": 0.00008200109004974365
+        }
+      },
+      "suite skipped": {
+        "RegExp#test": {
+          "hz": 0,
+          "meanTime": 0,
+          "medianTime": 0,
+          "standardDeviation": 0,
+          "maxTime": 0,
+          "minTime": 0
+        }
+      },
+      "suite": {
+        "RegExp#test": {
+          "hz": 0,
+          "meanTime": 0,
+          "medianTime": 0,
+          "standardDeviation": 0,
+          "maxTime": 0,
+          "minTime": 0
+        }
+      },
+      "empty suite": {},
+      "empty compare": {},
+      "Intended errors": {},
+      "before error": {
+        "RegExp#test": {
+          "hz": 6231376.502026562,
+          "meanTime": 0.00016047818642875793,
+          "medianTime": 0.00015100091695785522,
+          "standardDeviation": 0.0008403171091718205,
+          "maxTime": 1.5041330009698868,
+          "minTime": 0.00007800012826919556
+        }
+      },
+      "after error": {
+        "RegExp#test": {
+          "hz": 8196777.573029293,
+          "meanTime": 0.00012199916260877978,
+          "medianTime": 0.00012600049376487732,
+          "standardDeviation": 0.0006522761376908145,
+          "maxTime": 1.0710959993302822,
+          "minTime": 0.00007599964737892151
+        }
+      },
+      "before each error": {
+        "RegExp#test": {
+          "hz": 7944069.434224913,
+          "meanTime": 0.00012588006792737304,
+          "medianTime": 0.0001269988715648651,
+          "standardDeviation": 0.0005898426216678214,
+          "maxTime": 0.3788530007004738,
+          "minTime": 0.00007599964737892151
+        }
+      },
+      "after each error": {},
+      "Setup and teardown": {
+        "a = 1": {
+          "hz": 0,
+          "meanTime": 0,
+          "medianTime": 0,
+          "standardDeviation": 0,
+          "maxTime": 0,
+          "minTime": 0
+        }
+      }
+    }
+  },
+  {
     "tag": "1bd115cfaa8cbd28bf75e825e538514a2adab402",
     "timestamp": "2021-08-10T13:56:42.382Z",
     "suites": {
